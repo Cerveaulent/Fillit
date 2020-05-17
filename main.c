@@ -3,10 +3,10 @@
 /*                                                              /             */
 /*   main.c                                           .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
-/*   By: ccantin <ccantin@student.le-101.fr>        +:+   +:    +:    +:+     */
+/*   By: charles <charles@student.le-101.fr>        +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/02/21 22:55:21 by ccantin      #+#   ##    ##    #+#       */
-/*   Updated: 2019/03/27 19:26:20 by ccantin     ###    #+. /#+    ###.fr     */
+/*   Updated: 2020/05/17 17:11:30 by charles     ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -41,12 +41,10 @@ int		main(int argc, char **argv)
 {
 	t_tetri	*l_tetri;
 	int		fd;
-	int		i;
 	char	**sol;
 
 	l_tetri = NULL;
 	sol = NULL;
-	i = 0;
 	if (argc != 2)
 	{
 		ft_putendl("usage : ./fillit source_file");
