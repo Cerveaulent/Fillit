@@ -3,10 +3,10 @@
 /*                                                              /             */
 /*   solver.c                                         .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
-/*   By: ccantin <ccantin@le-101.fr>                +:+   +:    +:    +:+     */
+/*   By: charles <charles@student.le-101.fr>        +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/02/04 15:39:09 by ccantin      #+#   ##    ##    #+#       */
-/*   Updated: 2019/03/23 17:27:49 by ccantin     ###    #+. /#+    ###.fr     */
+/*   Updated: 2020/05/17 17:12:33 by charles     ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -16,10 +16,8 @@
 
 static int		create_grid(char ***grid, int size)
 {
-	int		ret;
 	int		i_col;
 
-	ret = 0;
 	i_col = -1;
 	if (!(*grid = (char **)malloc(sizeof(char *) * size)))
 		return (-1);
