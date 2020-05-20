@@ -22,6 +22,11 @@ The program outputs a square filled with letters where every letter has been aff
 
 ![img](https://github.com/Cerveaulent/Fillit/blob/master/fillit_output.png)
 
+<h4> Launching the program
+ 
+ - compile using ``make`` command in the fillit directory
+ 
+ - then type ``./fillit the_text_file.txt``
 
 [Fillit main page](https://github.com/Cerveaulent/Fillit) 
 
